@@ -1,7 +1,7 @@
-import project1 from "./assets/projects/project-1.jpg";
-import project2 from "./assets/projects/project-2.jpg";
-import project3 from "./assets/projects/project-3.jpg";
-import project4 from "./assets/projects/project-4.jpg";
+import project1 from "./assets/projects/project-1.png";
+import project2 from "./assets/projects/project-2.png";
+import project3 from "./assets/projects/project-3.png";
+import project4 from "./assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I'm a full-stack developer (MERN) with a knack for crafting robust and scalable web applications. I’ve honed my skills in front-end technologies like React.js, back-end with Node.js and Express.js, and databases like MongoDB and MySQL through various hackathons and academic projects. I aim to build impactful digital solutions that drive growth and deliver exceptional user experiences.`;
 
@@ -14,6 +14,7 @@ export const EXPERIENCES = [
     company: "Govt of India.",
     description: `Developed a comprehensive solution for carbon footprint management in indian coal mines. The system quantified emissions, evaluated the role of carbon sinks in maintaining environmental balance, and provided actionable recommendations such as afforestation and integrating renewable energy sources.`,
     technologies: ["React.js", "Tailwind css","Javascript"],
+    
   },
   {
     year: "April-2024",
@@ -34,37 +35,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
+    title: "NxtResume",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "It is a feature-rich, real-time resume builder tailored for modern job seekers to craft elegant and professional resumes effortlessly with various themes. It offers dynamic, section-wise inputs for education, experience, projects, and skills — with instant live preview, mobile responsiveness, and one-click PDF export built using MERN stack.",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind css"],
   },
   {
-    title: "Portfolio Website",
+    title: "Carbon Neutrality Platform",
+    image: project1,
+    description:
+      "A powerful and intuitive web dashboard designed for visualizing and managing carbon emissions in coal mining operations. It enables mine owners to analyze fuel usage, monitor emissions in real-time, and compare data against environmental standards — all through clean, interactive visualizations",
+    technologies: ["React.js", "Tailwind css"],
+  },
+  {
+    title: "Authify",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Authify is a secure and modern MERN-based authentication system featuring full user auth flow with email verification, password reset, and protected routes. Implements JWT-based security, authentication checks, and real-time email notifications with a responsive React + Tailwind UI. Built to demonstrate production-ready practices like bcrypt encryption,  and clean UX.",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind css"],
   },
   {
-    title: "Blogging Platform",
+    title: "MERN To-Do App",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A full-stack task management application built with the MERN stack that enables users to efficiently create, update, delete, and track tasks in real time. This project demonstrates essential CRUD operations, state management, and backend integration with a clean, responsive UI.",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind css"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Karnataka, India ",
+  phoneNo: "",
+  email: "prajwalvwadekar@gmail.com",
 };
