@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from "../assets/prajwalWadekarLogo.png";
 import { FaLinkedin } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa6';
+import { FaGithub, FaEnvelope } from 'react-icons/fa6'; 
 // import { FaSquareXTwitter } from 'react-icons/fa6';
 import { FaInstagram } from 'react-icons/fa';
 
@@ -21,12 +21,13 @@ const Navbar = () => {
         <a href="https://www.instagram.com/prajwal.__w/" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
         </a>
-        {/* <a href="https://www.instagram.com/prajwal._wadekar/" target="_blank" rel="noopener noreferrer">
-          <FaSquareXTwitter />
-        </a> */}
+        <a href="mailto:prajwalvwadekar@gmail.com">
+  <FaEnvelope />
+</a>
+
       </div>
     </nav>
-  )
-}
+  );
+};
 
 export default Navbar;

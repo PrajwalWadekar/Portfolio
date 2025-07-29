@@ -14,14 +14,15 @@ export const EXPERIENCES = [
     company: "Govt of India.",
     description: `Developed a comprehensive solution for carbon footprint management in indian coal mines. The system quantified emissions, evaluated the role of carbon sinks in maintaining environmental balance, and provided actionable recommendations such as afforestation and integrating renewable energy sources.`,
     technologies: ["React.js", "Tailwind css","Javascript"],
-    
+    certificateLink: "https://drive.google.com/file/d/17VwLX44g_Hzkmu2YTnutmuqW6fhgeEUY/view?usp=drivesdk"
   },
   {
     year: "April-2024",
     role: "CodeFiesta 5.0",
     company: "National Level Hackathon",
     description: `Competed in a 24-hour hackathon focused on building innovative solutions to improve campus connectivity. Contributed to designing and prototyping the Campus Connect platform, enhancing my skills in collaboration, problem-solving, and working efficiently under pressure`,
-    technologies: ["HTML", "CSS", "Javascript", "mySQL"]  ,
+    technologies: ["HTML", "CSS", "Javascript", "mySQL"],
+    certificateLink: ""
   },
   {
     year: "Febuary-2024",
@@ -29,8 +30,8 @@ export const EXPERIENCES = [
     company: "JCET, Belagavi",
     description: `Participated in an intense 3-hour hackathon, TechVenture Fiesta 2024 at Jain College of Engineering and Technology, Belagavi. Built a functional solution under tight time constraints, demonstrating fast thinking, teamwork, and adaptability in a high-pressure environment`,
     technologies: ["HTML", "CSS", "Javascript"],
+    certificateLink: "https://drive.google.com/file/d/1HBuluMunHse_TxBVDAM42MqEx4GIAemE/view?usp=drivesdk"
   },
-  
 ];
 
 export const PROJECTS = [
@@ -40,6 +41,8 @@ export const PROJECTS = [
     description:
       "It is a feature-rich, real-time resume builder tailored for modern job seekers to craft elegant and professional resumes effortlessly with various themes. It offers dynamic, section-wise inputs for education, experience, projects, and skills — with instant live preview, mobile responsiveness, and one-click PDF export built using MERN stack.",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind css"],
+    liveLink: "https://nxtresume.site/",
+    githubLink: "https://github.com/PrajwalWadekar/NxtResume",
   },
   {
     title: "Carbon Neutrality Platform",
@@ -47,6 +50,8 @@ export const PROJECTS = [
     description:
       "A powerful and intuitive web dashboard designed for visualizing and managing carbon emissions in coal mining operations. It enables mine owners to analyze fuel usage, monitor emissions in real-time, and compare data against environmental standards — all through clean, interactive visualizations",
     technologies: ["React.js", "Tailwind css"],
+     liveLink: "https://carbon-neutrality-e8ha.vercel.app/",
+    githubLink: "https://github.com/PrajwalWadekar/CarbonNeutrality",
   },
   {
     title: "Authify",
@@ -54,6 +59,8 @@ export const PROJECTS = [
     description:
       "Authify is a secure and modern MERN-based authentication system featuring full user auth flow with email verification, password reset, and protected routes. Implements JWT-based security, authentication checks, and real-time email notifications with a responsive React + Tailwind UI. Built to demonstrate production-ready practices like bcrypt encryption,  and clean UX.",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind css"],
+     liveLink: "https://authify.site/",
+    githubLink: "https://github.com/PrajwalWadekar/Authify",
   },
   {
     title: "MERN To-Do App",
@@ -61,6 +68,8 @@ export const PROJECTS = [
     description:
       "A full-stack task management application built with the MERN stack that enables users to efficiently create, update, delete, and track tasks in real time. This project demonstrates essential CRUD operations, state management, and backend integration with a clean, responsive UI.",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind css"],
+     liveLink: "https://mern-to-do-app-fyoo.vercel.app/",
+    githubLink: "https://github.com/PrajwalWadekar/MERN-To-Do-App",
   },
 ];
 
