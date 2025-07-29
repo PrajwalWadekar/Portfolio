@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "..";
 import { motion } from 'framer-motion';
 import Lottie from 'lottie-react';
-import devAnimation from '../assets/dev-lottie.json'; // your Lottie JSON file
+import devAnimation from '../assets/dev-lottie.json'; 
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
