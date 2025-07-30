@@ -4,7 +4,7 @@ A clean, modern, and animated personal portfolio website built using **React**, 
 
 ## 🖼️ Live Demo
 
-🔗 [View Live Site](https://your-portfolio-link.com)
+🔗 [View Live Site](https://prajwalwadekar.github.io/Portfolio/)
 
 ## 📌 Features
 
