@@ -65,6 +65,6 @@ A clean, modern, and animated personal portfolio website built using **React**, 
 
 Feel free to reach out for collaborations or feedback!
 
-- 📧 Email: [your.email@example.com](mailto:your.email@example.com)  
-- 🌐 Portfolio: [your-portfolio-link.com](https://your-portfolio-link.com)
+- 📧 Email: [your.email@example.com](mailto:prajwalvwadekar@gmail.com)  
+- 🌐 Portfolio: [your-portfolio-link.com](https://prajwalwadekar.github.io/Portfolio/)
 
